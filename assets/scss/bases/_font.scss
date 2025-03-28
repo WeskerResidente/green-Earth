@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as variable;
+
+@font-face {
+    font-family: variable.$font-bold;
+    src: url(/assets/font/DM_Sans/static/DMSans-Bold.ttf);
+
+}
+@font-face {
+    font-family: variable.$font-regular;
+    src: url(/assets/font/DM_Sans/static/DMSans-Regular.ttf);
+
+}

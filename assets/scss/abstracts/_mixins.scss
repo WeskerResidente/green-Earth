@@ -1,0 +1,9 @@
+@use "../abstracts/variables" as variable;
+
+@mixin btn {
+    color: variable.$color-secondary;
+    font-family: variable.$font-regular;
+    text-decoration: none;
+    padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+    border-radius: 10px;
+}

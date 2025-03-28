@@ -1,0 +1,87 @@
+body {
+  font-family: "DM Regular";
+  margin: 0 auto;
+  background-color: #faf2e7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "DM Bold";
+  color: #000000;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "DM Bold";
+  color: #000000;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "DM Bold";
+  color: #000000;
+  font-size: 2rem;
+}
+
+p {
+  font-family: "DM Regular";
+  color: #000000;
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: "DM Bold";
+  src: url(/assets/font/DM_Sans/static/DMSans-Bold.ttf);
+}
+@font-face {
+  font-family: "DM Regular";
+  src: url(/assets/font/DM_Sans/static/DMSans-Regular.ttf);
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 80%;
+}
+.header .logo img {
+  width: 8%;
+}
+.btn {
+  color: #fff;
+  font-family: "DM Regular";
+  text-decoration: none;
+  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  border-radius: 10px;
+}
+
+.btn-secondary {
+  color: #000000;
+  font-family: "DM Regular";
+  text-decoration: none;
+  padding: 0.3rem;
+  border-radius: 10px;
+  border: 1px black solid;
+  font-size: x-small;
+}
+
+.btn-header {
+  background: linear-gradient(to right, #13533a, #6f962b);
+}
+
+.link {
+  color: #ee7c3d;
+}
+
+/*# sourceMappingURL=style.css.map */

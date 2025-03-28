@@ -1,0 +1,33 @@
+@use "../abstracts/variables" as variable;
+
+body {
+    font-family: variable.$font-regular;
+    margin: 0 auto;
+    background-color: variable.$color-senary;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: variable.$font-bold;
+    color: variable.$color-primary;
+    font-size: 2rem;
+
+}
+h2 {
+    font-family: variable.$font-bold;
+    color: variable.$color-primary;
+    font-size: 2rem;
+
+}
+h3{
+    font-family: variable.$font-bold;
+    color: variable.$color-primary;
+    font-size: 2rem;
+}
+p {
+    font-family: variable.$font-regular;
+    color: variable.$color-primary;
+    font-size: 1rem;
+}

@@ -1,0 +1,5 @@
+@use "../abstracts/variables" as variable;
+
+.link {
+    color: variable.$color-septenary;
+}

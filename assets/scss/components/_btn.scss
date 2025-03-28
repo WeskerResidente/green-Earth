@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as variable;
+@use "../abstracts/mixins" as mixin; 
+
+.btn {
+    @include mixin.btn;
+}
+.btn-secondary {
+    color: variable.$color-primary;
+    font-family: variable.$font-regular;
+    text-decoration: none;
+    padding: 0.3rem;
+    border-radius: 10px;
+    border: 1px black solid;
+    font-size: x-small;
+}
+.btn-header{
+    background: linear-gradient(to right, variable.$color-quaternary, variable.$color-quinary);
+}
