@@ -138,6 +138,20 @@ p {
   padding-bottom: 1rem;
 }
 
+.link {
+  color: #ee7c3d;
+}
+
+.actus {
+  display: flex;
+}
+.actus .actus-img {
+  width: 40%;
+}
+.actus .actus-img img {
+  width: 100%;
+}
+
 .btn {
   color: #fff;
   font-family: "DM Regular";
@@ -162,10 +176,6 @@ p {
 
 .btn-primary {
   background-color: #054d3b;
-}
-
-.link {
-  color: #ee7c3d;
 }
 
 /*# sourceMappingURL=style.css.map */

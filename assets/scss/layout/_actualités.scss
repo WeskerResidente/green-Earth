@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as variable;
+@use "../components/link" as link;
+
+.actus {
+    display: flex;
+    .actus-img {
+        width: 40%;
+        img {
+            width: 100%;
+        }
+    }
+}
