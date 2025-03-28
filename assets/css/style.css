@@ -24,13 +24,13 @@ h2 {
 h3 {
   font-family: "DM Bold";
   color: #000000;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 p {
   font-family: "DM Regular";
   color: #000000;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 @font-face {
@@ -80,6 +80,22 @@ p {
 .bandeaux .bandeaux-txt {
   width: 70%;
   margin-right: 2rem;
+}
+
+.projet {
+  display: flex;
+  flex-wrap: wrap;
+}
+.projet div {
+  background-color: #fff;
+  width: 30.5%;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.projet div h3 {
+  border-bottom: #000000 1px solid;
+  padding-bottom: 1rem;
 }
 
 .btn {
