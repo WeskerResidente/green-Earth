@@ -1,0 +1,44 @@
+@use "../abstracts/variables" as variable;
+
+
+.missions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(/assets/img/farmer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 5rem;
+    .mission {
+        background-color: variable.$color-secondary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+        margin-top: 5rem;
+        .mission-txt {
+            margin-right: 2rem;
+            .ul  {
+                margin-right: 1rem;
+            }
+            ul{
+                column-count: 2;
+
+                li{
+                    color: variable.$color-terciary;
+                    list-style-type: circle;
+                }
+                li:first-line{
+                    color: variable.$color-primary;
+                }
+            }
+        }
+        .mission-img {
+            width: 40%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

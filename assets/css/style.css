@@ -48,6 +48,47 @@ p {
   padding: 0 1rem;
 }
 
+.missions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url(/assets/img/farmer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5rem;
+}
+.missions .mission {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  margin-top: 5rem;
+}
+.missions .mission .mission-txt {
+  margin-right: 2rem;
+}
+.missions .mission .mission-txt .ul {
+  margin-right: 1rem;
+}
+.missions .mission .mission-txt ul {
+  column-count: 2;
+}
+.missions .mission .mission-txt ul li {
+  color: #054d3b;
+  list-style-type: circle;
+}
+.missions .mission .mission-txt ul li:first-line {
+  color: #000000;
+}
+.missions .mission .mission-img {
+  width: 40%;
+}
+.missions .mission .mission-img img {
+  width: 100%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -62,7 +103,6 @@ p {
 
 .bandeaux-img {
   box-shadow: 7px 7px 0 0 #054d3b;
-  border-top-left-radius: 5rem;
 }
 
 .bandeaux {
