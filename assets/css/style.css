@@ -11,7 +11,8 @@ body {
 h1 {
   font-family: "DM Bold";
   color: #000000;
-  font-size: 2rem;
+  font-size: 3.5rem;
+  margin: 0;
 }
 
 h2 {
@@ -58,11 +59,34 @@ p {
 .header .logo img {
   width: 8%;
 }
+
+.bandeaux-img {
+  box-shadow: 7px 7px 0 0 #054d3b;
+  border-top-left-radius: 5rem;
+}
+
+.bandeaux {
+  display: flex;
+  margin-top: 2rem;
+}
+.bandeaux .bandeaux-img {
+  width: 50%;
+}
+.bandeaux .bandeaux-img img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 15px;
+}
+.bandeaux .bandeaux-txt {
+  width: 70%;
+  margin-right: 2rem;
+}
+
 .btn {
   color: #fff;
   font-family: "DM Regular";
   text-decoration: none;
-  padding: 0.7rem 0.5rem 0.7rem 0.5rem;
+  padding: 0.7rem 0.9rem 0.7rem 0.9rem;
   border-radius: 10px;
 }
 
@@ -78,6 +102,10 @@ p {
 
 .btn-header {
   background: linear-gradient(to right, #13533a, #6f962b);
+}
+
+.btn-primary {
+  background-color: #054d3b;
 }
 
 .link {

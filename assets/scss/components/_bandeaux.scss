@@ -1,0 +1,6 @@
+@use "../abstracts/variables" as variable;
+
+.bandeaux-img {
+    box-shadow: 7px 7px 0  0 variable.$color-terciary;
+    border-top-left-radius: 5rem;
+}
