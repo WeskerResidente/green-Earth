@@ -145,13 +145,17 @@ p {
 .actus {
   display: flex;
 }
-.actus .actus-img {
-  width: 40%;
+.actus .actus-top {
+  display: flex;
 }
-.actus .actus-img img {
+.actus .actus-top .actus-img {
+  width: 50%;
+}
+.actus .actus-top .actus-img img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
 .btn {
   color: #fff;
   font-family: "DM Regular";

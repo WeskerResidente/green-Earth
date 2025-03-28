@@ -3,10 +3,18 @@
 
 .actus {
     display: flex;
-    .actus-img {
-        width: 40%;
-        img {
-            width: 100%;
+    .actus-top {
+        display: flex;
+        .actus-img {
+            width: 50%;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .actus-txt {
+    
         }
     }
 }
