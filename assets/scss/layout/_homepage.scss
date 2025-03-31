@@ -183,11 +183,14 @@
                 margin-right: 1rem;
             }
             ul{
-                column-count: 2;
+                display: flex;
+                flex-wrap: wrap;
+
 
                 li{
                     color: variable.$color-terciary;
                     list-style-type: circle;
+                    width: 50%;
                 }
                 li:first-line{
                     color: variable.$color-primary;
