@@ -3,18 +3,45 @@
 
 .actus {
     display: flex;
+    flex-direction: column;
     .actus-top {
         display: flex;
+        justify-content: space-around;
+        column-gap: 2rem;
         .actus-img {
             width: 50%;
+            height: 50%;
+
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+
             }
         }
-        .actus-txt {
-    
+        .actu-infos {
+            background-color: white;
+        }
+    }
+    .actus-bot {
+        display: flex;
+        column-gap: 2rem;
+        width: 100%;
+        height: 15%;
+       .actus-items {
+        width: 35%;
+       }
+        .actus-bot-img {
+            width: 100%;
+            height: 30%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit:cover;
+
+
+            }
         }
     }
 }

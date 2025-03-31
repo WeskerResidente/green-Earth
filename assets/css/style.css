@@ -144,18 +144,44 @@ p {
 
 .actus {
   display: flex;
+  flex-direction: column;
 }
 .actus .actus-top {
   display: flex;
+  justify-content: space-around;
+  column-gap: 2rem;
 }
 .actus .actus-top .actus-img {
   width: 50%;
+  height: 50%;
 }
 .actus .actus-top .actus-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+.actus .actus-top .actu-infos {
+  background-color: white;
+}
+.actus .actus-bot {
+  display: flex;
+  column-gap: 2rem;
+  width: 100%;
+  height: 15%;
+}
+.actus .actus-bot .actus-items {
+  width: 35%;
+}
+.actus .actus-bot .actus-bot-img {
+  width: 100%;
+  height: 30%;
+}
+.actus .actus-bot .actus-bot-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .btn {
   color: #fff;
   font-family: "DM Regular";
