@@ -1,0 +1,22 @@
+@use "../abstracts/variables" as variable;
+@use "../components/btn" as btn;
+
+.banniere-bot {
+    background-color: variable.$color-quinary;
+    .ban-bot{
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            color: variable.$color-secondary;
+            margin-bottom: 0;
+        }
+        p{
+            color: variable.$color-secondary;
+            margin-bottom: 2rem;
+        }
+        .btn-banniere{
+            align-items: center;
+            display: flex;
+        }
+    }
+}

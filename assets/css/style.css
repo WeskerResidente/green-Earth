@@ -263,4 +263,50 @@ p {
   background-color: #054d3b;
 }
 
+.btn-terciary {
+  background-color: #ee7c3d;
+}
+
+.btn-ban {
+  background-color: #fff;
+  color: #13533a;
+}
+
+.video {
+  display: flex;
+  justify-content: space-between;
+}
+.video iframe {
+  border-radius: 15px;
+  height: 35vh;
+  width: 100%;
+  margin: 1rem;
+}
+
+.btn-video {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.banniere-bot {
+  background-color: #6f962b;
+}
+.banniere-bot .ban-bot {
+  display: flex;
+  justify-content: space-between;
+}
+.banniere-bot .ban-bot h2 {
+  color: #fff;
+  margin-bottom: 0;
+}
+.banniere-bot .ban-bot p {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.banniere-bot .ban-bot .btn-banniere {
+  align-items: center;
+  display: flex;
+}
+
 /*# sourceMappingURL=style.css.map */

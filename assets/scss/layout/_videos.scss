@@ -1,0 +1,18 @@
+@use "../abstracts/variables" as variable;
+@use "../components/btn" as btn;
+
+.video {
+    display: flex;
+    justify-content: space-between;
+    iframe {
+        border-radius: 15px;
+        height: 35vh;
+        width: 100%;
+        margin: 1rem;
+    }
+}
+.btn-video {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}

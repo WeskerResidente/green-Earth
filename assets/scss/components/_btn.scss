@@ -20,3 +20,11 @@
 .btn-primary {
     background-color: variable.$color-terciary;
 }
+
+.btn-terciary {
+    background-color: variable.$color-septenary;
+}
+.btn-ban {
+    background-color: variable.$color-secondary;
+    color: variable.$color-quaternary;
+}
