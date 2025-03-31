@@ -6,42 +6,48 @@
     flex-direction: column;
     .actus-top {
         display: flex;
-        justify-content: space-around;
+        height: 40vh;;
         column-gap: 2rem;
+        margin-bottom: 2rem;
         .actus-img {
             width: 50%;
-            height: 50%;
-
             img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
-
+                border-radius: 15px;
             }
         }
         .actu-infos {
             background-color: white;
+            padding: 3rem;
+            border-radius: 15px;
         }
     }
     .actus-bot {
         display: flex;
         column-gap: 2rem;
         width: 100%;
-        height: 15%;
        .actus-items {
         width: 35%;
-       }
+        background-color: white;
+        border-radius: 15px;
+        padding: 0.5rem;
         .actus-bot-img {
             width: 100%;
             height: 30%;
-
+            margin-bottom: 1rem;
             img {
                 width: 100%;
                 height: 100%;
                 object-fit:cover;
-
-
+                border-radius: 15px;
             }
         }
+        .actus-bot-txt {
+            padding-left: 0.5rem;
+        }
+       }
+       
     }
 }
