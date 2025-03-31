@@ -3,14 +3,9 @@
 @use "bases/utilities";
 
 
-@use "layout/missions";
+@use"layout/footer";
 @use "layout/header";
-@use "layout/bandeaux";
-@use"layout/project";
-@use "layout/actualités";
-@use "layout/gallerie";
-@use "layout/videos";
-@use "layout/banniere-don";
+@use "layout/homepage";
 
 @use "components/btn";
 @use "components/link";
